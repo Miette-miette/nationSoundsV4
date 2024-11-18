@@ -1,0 +1,434 @@
+@media (max-width: 768px) {
+
+    main {
+        display: flex;
+        padding: 100px 5%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /*MENU*/
+
+    #menuInfo>ul {
+        padding-top: 10%;
+        padding-left: 10%;
+        width: 100%;
+    }
+
+    #menuInfo>ul>li {
+        padding-top: 3%;
+        font-size: 30px;
+    }
+
+    #menuInfo{
+        display: none;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #visuelMenu{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        padding: 10%;
+    }
+
+    #mascotteMenu {
+        width: 25%;
+        position: absolute;
+        margin: 0 0 160px 110px;
+        z-index: 2;
+        animation: logoShake 15s ease-out 0s infinite normal forwards;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        height: 1000px;
+        padding: 0 0 20% 0;
+    }
+
+    #topFooter {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+
+    #logoFooter>img {
+        margin: 10%;
+        width: 110px;
+        height: 110px;
+    }
+
+    #logoFooter>div>p:first-of-type {
+        font-size: 25px;
+    }
+
+    #footerFleur{
+        margin-top: 5%;
+    }
+
+    #footerFleur>img {
+        width: 60px;
+    }
+
+    footer>div>div>p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #rsFooter>div {
+        width: 80%;
+        justify-content: center;
+    }
+
+    #informationFooter {
+        width: 100%;
+    }
+
+    #informationFooter>a {
+        margin: 0 5%;
+        font-size: 12px;
+    }
+
+    #bottomFooter{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    /*ACCUEIL*/
+
+    #mainAccueil{
+        padding: 100px 0 0 0;
+    }
+
+    #bienvenue {
+        background-image: url(../media/background/pexels-milodeckertM.png);
+        height: 600px;
+        width: 100%;
+    }
+
+    #mascotte{
+        position: absolute;
+        z-index: 4;
+        width: 100px;
+        top: 15%;
+        left: 13%;
+    }
+    
+    #forme1{
+        position: absolute;
+        z-index: 4;
+        width: 42px;
+        top: 17%;
+        right: 32%;
+    }
+    
+    #mega{
+        position: absolute;
+        z-index: 4;
+        width: 62px;
+        top: 400px;
+        left: 12%;
+    }
+    
+    #cassette {
+        position: absolute;
+        z-index: 4;
+        width: 72px;
+        top: 95px;
+        right: 10%;
+        rotate: -30deg;
+    }
+    
+    #etoile{
+        position: absolute;
+        z-index: 4;
+        width: 30px;
+        top: 460px;
+        left: 25%;
+    }
+    
+    #fleur1 {
+        position: absolute;
+        z-index: 4;
+        width: 70px;
+        top: 175px;
+        right: 12%;
+    }
+    
+    #fleur2 {
+        position: absolute;
+        z-index: 4;
+        width: 50px;
+        top: 400px;
+        right: 12%;
+    }
+    
+    #tartelette{
+        position: absolute;
+        z-index: 2;
+        width: 60%;
+        margin-top: 0px;
+    }
+    
+    #ns_2024{
+        position: absolute;
+        z-index: 3;
+        width: 48%;
+        margin-top: 0px;
+    }
+
+    #btnlanding {
+        font-size: 20px;
+        margin-top: 200px;
+        width: 40%;
+        padding: 2%;
+        margin-left: 32%;
+    }
+
+    #affiche {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #affiche>p {
+        padding: 0 4%;
+        text-align: center;
+    }
+
+    #carouselArtiste{
+        padding: 20px 0 0px 20px;
+        width: 100%;
+    }
+
+
+    .pass1, .pass2, .pass3 {
+        margin: 6% 5%;
+    }
+
+    .pass3{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .pass3>h3 {
+        font-size: 25px;
+    }
+
+    .pass1,.pass2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .pass1>h3, .pass2>h3{
+        font-size: 20px;
+    }
+
+    .infoCard {
+        width: 190px;
+    }
+
+    #news {
+        padding: 4% 0 4% 4%;
+    }
+    
+    .articleImg {
+        height: 210px;
+        width: 250px;
+        padding: 2%;
+    }
+
+    .articleImg>img {
+        width: 100%;
+    }
+
+    #asso {
+        padding: 20px 8%;
+    }
+
+    #assoTxt>img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    #assoTxt>div>p{
+        padding: 4% 0;
+    }
+
+    /*CONCERT*/
+
+    .sceneBtn {
+        position: fixed;
+        bottom: 0;
+        background-color: beige;
+        width: 100%;
+        height: 80px;
+        padding: 2%;
+        border-top: solid #492E34;
+        z-index: 2;
+    }
+
+    .sceneConteneur{
+        width: 100%;
+        padding: 10px 10px 1px 10px;
+        margin: 1% 0;
+    }
+    
+    .concertItem>img{
+        margin: 2% 5%;
+    }
+
+    /*PROGRAMMATION*/
+
+    #mainProg {
+        display: flex;
+        padding: 100px 5%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .progBtn {
+        position: fixed;
+        bottom: 0;
+        background-color: beige;
+        width: 100%;
+        padding: 4% 10% 10% 10%;
+        border: none;
+        border-top: solid #492E34;
+        z-index: 2;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #filtreTemporel, #filtreAutre {
+        width: 100%;
+    }
+
+    #filtreTitre>img{
+        margin-left: 20px;
+    }
+
+    .filtreConteneur {
+        display: none;
+        width: 90%;
+    }
+
+    .conteneurQuestion {
+        padding: 10px 25px 10px 25px;
+    }
+
+
+    #fleurInfo {
+        width: 100px;
+    }
+
+    .imgInfo>img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .btnInfoFooter>img{
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+
+    #map {
+        width: 100%;
+        height: 400px;
+    }
+
+    #conteneurInformations {
+        width: 100%;
+    }   
+}
+
+@media (max-width: 450px) {
+
+    #bgMascotteMenu {
+        width: 40%;
+    }
+
+    #mascotteMenu {
+        width: 10%;
+        margin: 0 0 100px 70px;
+    }
+
+    #menuInfo>ul>li {
+        padding-top: 8%;
+        font-size: 26px;
+    }
+
+    #menuInfo>ul{
+        padding-top: 30%;
+    }
+
+    footer {
+        height: 800px;
+        padding: 0 0 20% 0;
+    }
+
+    #topFooter {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+    #tartelette {
+        width: 80%;
+        margin-top: -90px;
+    }
+    #ns_2024 {
+        width: 65%;
+        margin-top: -90px;
+    }
+    
+    #btnlanding {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 0;
+        font-size: 16px;
+        padding: 3%;
+    }
+
+    #fleurbtn {
+        width: 80px;
+        margin-left: 70%;
+        margin-top: 62%;
+    }
+
+    .carteInfoImg>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bgRound {
+        width: 250px;
+    }
+
+    .imgRound {
+        width: 230px;
+        height: 230px;
+    }
+
+    .infoTxt {
+        padding: 8% 2%;
+    }
+
+    .imgInfo>img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #fleurInfo {
+        width: 80px;
+        top: -60px;
+    }
+    li>img{
+        width: 30px;
+    }
+}
